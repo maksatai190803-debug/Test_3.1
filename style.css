@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background 1s ease;
+    background-size: cover;
+    background-position: center;
+}
+
+.seasons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+
+    .months {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .month {
+      padding: 15px 20px;
+      border-radius: 10px;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: capitalize;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+
+    .month:hover {
+      transform: scale(1.1);
+    }
